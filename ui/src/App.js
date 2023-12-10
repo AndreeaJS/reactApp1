@@ -1,13 +1,20 @@
 import logo1 from "./images/logo1.png";
-import './App.css';
+import './App.scss';
+import Header from "./elements/header";
+import Footer from "./elements/footer";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img className="logo1" src={logo1} alt="Not found"/>
-        {/* <iframe title="Logo Maker" src="/images/logo-maker/logo-maker.html" className="App-logo" alt="logo" /> */}
+        <Header />
       </header>
+      <div className="App-body">
+        <img className="logo1" src={logo1} alt="Not found"/>
+      </div>
+      <footer className="App-header">
+        <Footer />
+      </footer>
     </div>
   );
 }
