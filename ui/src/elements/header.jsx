@@ -1,9 +1,10 @@
 import React from 'react';
+import '../App.scss';
 
 const Header = () => {
   return (
-    <header className="pt-4 d-flex justify-content-center align-items-center flex-direction-column">
-      <h1>Titlu Antet</h1>
+    <header className="pt-4 d-flex justify-content-start align-items-center flex-direction-column">
+      <h1>Employee Portal</h1>
     </header>
   );
 }

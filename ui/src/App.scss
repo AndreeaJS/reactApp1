@@ -1,31 +1,50 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
 $black: black;
+$bck-clr: hsla(120, 85%, 87%, 0.347);
 
 .App {
   text-align: center;
 }
 
-.logo1 {
-  height: 30vmin;
-  pointer-events: none;
+.card {
+  width: 70%;
+  display: flex;
+  align-self: end;
+  text-align: start;
+  
 }
 
 .logo1 {
-   animation: App-logo-spin infinite 20s linear;
+  height: 7vmin;
+  width: 7vmin;
+  pointer-events: none;
+  align-self: center;
+  justify-content: center;
+  // animation: App-logo-spin infinite 20s linear;
 }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
 
 .App-header {
-  background-color: #16333b;
+  background-color: $bck-clr;
   color: $black;
   font-size: calc(10px + 2vmin);
 }
 
 .App-body {
-  background-color: #16333b;
+  background-color: $bck-clr;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  // align-items: center;
+  // justify-content: center;
   color: white;
 }
 
@@ -33,11 +52,4 @@ $black: black;
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
