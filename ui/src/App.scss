@@ -1,0 +1,55 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+$black: black;
+$bck-clr: hsla(120, 85%, 87%, 0.347);
+
+.App {
+  text-align: center;
+}
+
+.card {
+  width: 70%;
+  display: flex;
+  align-self: end;
+  text-align: start;
+  
+}
+
+.logo1 {
+  height: 7vmin;
+  width: 7vmin;
+  pointer-events: none;
+  align-self: center;
+  justify-content: center;
+  // animation: App-logo-spin infinite 20s linear;
+}
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+.App-header {
+  background-color: $bck-clr;
+  color: $black;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-body {
+  background-color: $bck-clr;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
